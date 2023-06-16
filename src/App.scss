@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  gap: 10px;
+  // margin: 0 auto;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  // overflow: scroll
+  
+}
+
+.navigation {
+  display: flex;
+  gap: 20px;
+  a {text-decoration: none;}
+}
+
+@media screen {
+  
+}
