@@ -9,7 +9,7 @@ const Inquiry = () => {
 
     return (
       <>
-          <div onClick={() => setToggle(true)}>
+          <div onClick={() => setToggle(!toggle)}>
               <h3>Inquiry</h3>
               {toggle && (
                   <>

@@ -1,4 +1,5 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
+import './works.scss'
 
 const Works = () => {
     const [toggle, setToggle] = useState(false)
@@ -9,18 +10,20 @@ const Works = () => {
               <h3>Works</h3>
               {toggle && (
                   <>
-                      <div>
-                        <img src="" alt="" />
-                        <p>First</p>
-                      </div>
-                      <div>
-                        <img src="" alt="" />
-                        <p>Second</p>
-                      </div>
-                      <div>
-                        <img src="" alt="" />
-                        <p>Third</p>
-                      </div>
+                    <div className='header'>
+                        <div>
+                            <img src="" alt="" />
+                            <p>First</p>
+                        </div>
+                        <div>
+                            <img src="" alt="" />
+                            <p>Second</p>
+                        </div>
+                        <div>
+                            <img src="" alt="" />
+                            <p>Third</p>
+                        </div>
+                    </div>
                   </>
               )}
           </div>
