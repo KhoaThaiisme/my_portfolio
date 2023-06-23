@@ -14,9 +14,9 @@ function App() {
         <NavBar />
         <Hero />
         <div className='footer'>
-          <div className='footer1'><About /></div>
-          <div className='footer1'><Works className='footer'/></div>
-          <div className='footer1'><Inquiry className='footer'/></div>
+          <div className='footer1 about'><About /></div>
+          <div className='footer1 works'><Works /></div>
+          <div className='footer1 inquiry'><Inquiry /></div>
         </div>
       </div>
       {/* <div class='cursor' id="cursor">
