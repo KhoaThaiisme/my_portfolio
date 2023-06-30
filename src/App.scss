@@ -1,8 +1,9 @@
 html {
   font-family: sans-serif;
-  background-color: rgb(248, 246, 244);
+  background-color: rgb(22, 21, 21);
   padding-left: 0;
   width: 100%;
+  color: white;
 }
 
 .nav {
@@ -24,49 +25,49 @@ html {
 // }
 
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  cursor: pointer;
-  // margin-bottom: 0;
-  left: 0
-}
+// .footer {
+//   position: absolute;
+//   bottom: 0;
+//   width: 100%;
+//   cursor: pointer;
+//   // margin-bottom: 0;
+//   left: 0
+// }
 
-.footer1 {
-  // margin: 2em auto;
-  width: 100%;
-  color: black;
-  font-size: 14px;
-  box-sizing: border-box;
-  font-family: sans-serif;
-  text-align: start;
-  // font-weight: bold;
-  // text-transform: uppercase;
-  // padding: 1em 0.5em;
-  cursor: pointer;
-}
+// .footer1 {
+//   // margin: 2em auto;
+//   width: 100%;
+//   color: black;
+//   font-size: 14px;
+//   box-sizing: border-box;
+//   font-family: sans-serif;
+//   text-align: start;
+//   // font-weight: bold;
+//   // text-transform: uppercase;
+//   // padding: 1em 0.5em;
+//   cursor: pointer;
+// }
 
 
-.footer1 {
-  height: 100%;
-  // padding-left: 10em;
-  // padding-right: 3rem;
-  padding-bottom: 2px;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  border-top: black solid 1px;
-  background: linear-gradient(rgb(248, 246, 244) 50%, #ed630d 50%);
-  background-size: 100% 200% ;
-  /*trasition effect for background*/
-  transition: background 1.5s;
-  gap: 0
-}
+// .footer1 {
+//   height: 100%;
+//   // padding-left: 10em;
+//   // padding-right: 3rem;
+//   padding-bottom: 2px;
+//   margin-top: 0;
+//   margin-bottom: 0;
+//   margin-left: 0;
+//   border-top: black solid 1px;
+//   background: linear-gradient(rgb(248, 246, 244) 50%, #ed630d 50%);
+//   background-size: 100% 200% ;
+//   /*trasition effect for background*/
+//   transition: background 1.5s;
+//   gap: 0
+// }
 
-.footer1:hover {
-  background-position:  100% 100%;
-} 
+// .footer1:hover {
+//   background-position:  100% 100%;
+// } 
 
 // .cursor,
 // .cursor2,
@@ -92,17 +93,17 @@ html {
 // 	transition:all 0.3s ease-out
 // }
 
-.about {
-  position: relative;
-  z-index: 1
-}
+// .about {
+//   position: relative;
+//   z-index: 1
+// }
 
-.works{ 
-  position: relative;
-  z-index: 2
-}
+// .works{ 
+//   position: relative;
+//   z-index: 2
+// }
 
-.inquiry {
-  position: relative;
-  z-index: 3
-}
+// .inquiry {
+//   position: relative;
+//   z-index: 3
+// }

@@ -2,7 +2,7 @@
     font-family: sans-serif;
 }
 
-h1 {
+h3 {
     text-align: center;
     font-family: sans-serif;
 }
@@ -11,9 +11,10 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-.content {
+.content-hero {
     
     display: flex;
     flex-direction: column;
@@ -23,7 +24,8 @@ h1 {
     // padding-left: 20rem;
     // padding-top: 8rem
     row-gap: 20px;
-    div {
-        align-items: flex-start;
-    }
+    
+    // div {
+    //     align-items: flex-start;
+    // }
 }

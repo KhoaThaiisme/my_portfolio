@@ -8,21 +8,9 @@ const Works = () => {
     return (
       <>
           <div onClick={() => setToggle(!toggle)} className='whole1'>
-            <AnimatePresence>
-              <h3>Works</h3>
-              {toggle && (
-                <motion.div
-                // className={styles.content}
-                key="content"
-                initial="collapsed"
-                animate="open"
-                exit="collapsed"
-                variants={{
-                    open: { opacity: 1, height: 'auto' },
-                    collapsed: { opacity: 1, height: 0 },
-                    exit: { opacity: 0, height: 0 },
-                }}
-                >
+            {/* <AnimatePresence> */}
+              <h3 className='work-title'>Works</h3>
+              
                     <div className='header'>
                         <div>
                             <img src="" alt="" />
@@ -37,9 +25,7 @@ const Works = () => {
                             <p>Third</p>
                         </div>
                     </div>
-                  </motion.div>
-              )}
-              </AnimatePresence>
+              {/* </AnimatePresence> */}
           </div>
       </>
     )

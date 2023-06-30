@@ -7,9 +7,9 @@ const Hero = () => {
 
   return (
     <>
-        <h1>Khoa-Kyle Thai</h1>
+        <h3>About</h3>
         <div className='outerDiv'>
-            <div className='content'>
+            <div className='content-hero'>
                 <br/>
                 <div>Website is a global approach</div>
                 <div>A web development enthusiantist</div>
